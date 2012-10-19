@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<ScrollView
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal|vertical"
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp" >
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="State"
+    android:layout_margin="4dp"
+    android:textStyle="bold"
+    />
+    <Spinner android:id="@+id/state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="District"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+<Spinner android:id="@+id/district"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pincode"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/pincode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:singleLine="true"
+    android:layout_margin="4dp" />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Candidate Name"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+<EditText
+    android:id="@+id/cname"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Current Location"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/clocation"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Preffered Location"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/plocation"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Current CTC"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/cctc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Expected CTC"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/ectc"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Current Profile"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/cprofile"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Expected Profile"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/eprofile"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Experience"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+
+<EditText
+    android:id="@+id/exper"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:singleLine="true"
+  />
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Attachments"
+    android:textStyle="bold"
+    android:layout_margin="4dp"/>
+    <TextView 
+        android:id="@+id/filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_margin="4dp"
+                />
+<Button android:id="@+id/browse"
+    android:layout_width="120dp"
+    android:layout_height="30dp"
+    android:textColor="#ffffff"
+    android:background="@drawable/clicker2"
+    android:text="BROWSE"
+    />
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="4dp"
+    android:gravity="center">
+<Button android:id="@+id/submit"
+    android:layout_width="130dp"
+    android:layout_height="30dp"
+    android:text="Submit"
+    android:textColor="#ffffff"
+    android:background="@drawable/clicker1"
+    android:layout_margin="4dp"/>
+<Button android:id="@+id/reset"
+    android:layout_width="130dp"
+    android:textColor="#ffffff"
+    android:background="@drawable/clicker1"
+    android:layout_height="30dp"
+    android:text="Reset"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
